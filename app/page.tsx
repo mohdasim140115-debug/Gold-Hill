@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Header } from "@/components/Header";
 import { Hero } from "@/components/Hero";
 import { Packages } from "@/components/Packages";
-import { Destinations } from "@/components/Destinations";
 import { WhyUs } from "@/components/WhyUs";
 import { Testimonials } from "@/components/Testimonials";
 import { Faq } from "@/components/Faq";
@@ -52,7 +51,6 @@ export default function Page() {
       <main id="main">
         <Hero />
         <Packages />
-        <Destinations />
         <WhyUs />
         <Testimonials />
         <Faq />

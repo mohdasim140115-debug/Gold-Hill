@@ -25,7 +25,6 @@ export const site = {
 
 export const nav = [
   { href: "#packages", label: "Packages" },
-  { href: "#destinations", label: "Destinations" },
   { href: "#why-us", label: "Why Us" },
   { href: "#faq", label: "FAQ" },
   { href: "#contact", label: "Contact" },
@@ -131,45 +130,6 @@ export const packages = [
       "Dedicated tour coordinator on ground",
     ],
     popular: false,
-  },
-];
-
-export const destinations = [
-  {
-    name: "Srinagar",
-    blurb: "Dal Lake, Mughal gardens, floating markets and heritage houseboats.",
-    image:
-      "/images/dal-lake-shikara.jpg",
-  },
-  {
-    name: "Gulmarg",
-    blurb: "Asia's highest gondola, meadows of flowers and winter ski slopes.",
-    image:
-      "/images/gulmarg-gondola.jpg",
-  },
-  {
-    name: "Sonmarg",
-    blurb: "The Meadow of Gold — Thajiwas glacier, alpine rivers and pony trails.",
-    image:
-      "/images/kashmir-valley.jpg",
-  },
-  {
-    name: "Pahalgam",
-    blurb: "Lidder valley, Betaab & Aru — pine forests and riverside camps.",
-    image:
-      "/images/yusmarg.avif",
-  },
-  {
-    name: "Doodhpathri",
-    blurb: "Untouched 'valley of milk' meadows just hours from Srinagar.",
-    image:
-      "/images/tulip-garden.jpg",
-  },
-  {
-    name: "Yusmarg",
-    blurb: "Quiet pastures, the Doodh Ganga stream and gentle hiking trails.",
-    image:
-      "/images/snow-cottage.jpg",
   },
 ];
 
