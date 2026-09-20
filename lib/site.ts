@@ -204,16 +204,22 @@ export const testimonials = [
   {
     name: "Ananya & Rohit",
     from: "Pune",
+    time: "2 weeks ago",
+    reviews: "8 reviews",
     text: "Our honeymoon was flawless — the houseboat, the shikara sunset, the Gulmarg day. Every transfer was on time and the coordinator checked in daily.",
   },
   {
     name: "Deepak Menon",
     from: "Bengaluru",
+    time: "1 month ago",
+    reviews: "Local Guide · 21 reviews",
     text: "Travelled with elderly parents. Gold Hill Luxe planned an easy pace, comfortable car and great hotels. Pricing was exactly as quoted.",
   },
   {
     name: "Sara Fernandes",
     from: "Goa",
+    time: "2 months ago",
+    reviews: "5 reviews",
     text: "Booked the Gulmarg ski weekend on short notice. Gear, lessons and lift tickets all sorted. Will come back for the full Kashmir tour.",
   },
 ];
