@@ -31,21 +31,21 @@ export function Contact() {
   }
 
   return (
-    <section id="contact" className="bg-brand-900 py-24 text-white">
-      <div className="container-x grid gap-12 lg:grid-cols-2">
+    <section id="contact" className="bg-brand-900 py-12 text-white">
+      <div className="container-x grid gap-8 lg:grid-cols-2">
         <div>
-          <p className="mb-3 text-xs font-bold uppercase tracking-[0.3em] text-brand-300">
+          <p className="mb-2 text-xs font-bold uppercase tracking-[0.3em] text-brand-300">
             Contact
           </p>
-          <h2 className="text-3xl font-extrabold sm:text-4xl">
+          <h2 className="text-2xl font-extrabold sm:text-3xl">
             Let&apos;s plan your Kashmir trip
           </h2>
-          <p className="mt-4 text-white/80">
+          <p className="mt-2 text-sm text-white/80">
             Tell us your dates and what you have in mind. We reply within a few
             hours with a written itinerary and a clear quote.
           </p>
 
-          <dl className="mt-8 space-y-4 text-sm">
+          <dl className="mt-5 space-y-2 text-sm">
             <div>
               <dt className="font-semibold text-brand-300">Phone / WhatsApp</dt>
               <dd>
@@ -75,12 +75,12 @@ export function Contact() {
             </div>
           </dl>
 
-          <div className="mt-8 overflow-hidden rounded-2xl border border-white/10">
+          <div className="mt-4 overflow-hidden rounded-2xl border border-white/10">
             <iframe
               title="Gold Hill Luxe office location map"
               src="https://www.google.com/maps?q=Kunzer,+Srinagar,+Jammu+and+Kashmir+193404&output=embed"
               width="100%"
-              height="240"
+              height="150"
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
               className="block"
@@ -90,15 +90,15 @@ export function Contact() {
 
         <form
           onSubmit={onSubmit}
-          className="rounded-2xl bg-white p-6 text-brand-900 shadow-xl sm:p-8"
+          className="rounded-2xl bg-white p-5 text-brand-900 shadow-xl sm:p-6"
         >
-          <div className="grid gap-4 sm:grid-cols-2">
+          <div className="grid gap-3 sm:grid-cols-2">
             <label className="text-sm font-medium">
               Name
               <input
                 name="name"
                 required
-                className="mt-1 w-full rounded-lg border border-brand-700/20 px-3 py-2 text-sm outline-none focus:border-brand-500"
+                className="mt-1 w-full rounded-lg border border-brand-700/20 px-3 py-1.5 text-sm outline-none focus:border-brand-500"
               />
             </label>
             <label className="text-sm font-medium">
@@ -107,7 +107,7 @@ export function Contact() {
                 name="phone"
                 required
                 inputMode="tel"
-                className="mt-1 w-full rounded-lg border border-brand-700/20 px-3 py-2 text-sm outline-none focus:border-brand-500"
+                className="mt-1 w-full rounded-lg border border-brand-700/20 px-3 py-1.5 text-sm outline-none focus:border-brand-500"
               />
             </label>
             <label className="text-sm font-medium">
@@ -116,7 +116,7 @@ export function Contact() {
                 name="month"
                 type="date"
                 min={new Date().toISOString().split("T")[0]}
-                className="mt-1 w-full rounded-lg border border-brand-700/20 px-3 py-2 text-sm outline-none focus:border-brand-500"
+                className="mt-1 w-full rounded-lg border border-brand-700/20 px-3 py-1.5 text-sm outline-none focus:border-brand-500"
               />
             </label>
             <label className="text-sm font-medium">
@@ -124,26 +124,26 @@ export function Contact() {
               <input
                 name="pax"
                 placeholder="e.g. 2 adults"
-                className="mt-1 w-full rounded-lg border border-brand-700/20 px-3 py-2 text-sm outline-none focus:border-brand-500"
+                className="mt-1 w-full rounded-lg border border-brand-700/20 px-3 py-1.5 text-sm outline-none focus:border-brand-500"
               />
             </label>
           </div>
-          <label className="mt-4 block text-sm font-medium">
+          <label className="mt-3 block text-sm font-medium">
             What are you looking for?
             <textarea
               name="message"
-              rows={4}
-              className="mt-1 w-full rounded-lg border border-brand-700/20 px-3 py-2 text-sm outline-none focus:border-brand-500"
+              rows={2}
+              className="mt-1 w-full rounded-lg border border-brand-700/20 px-3 py-1.5 text-sm outline-none focus:border-brand-500"
             />
           </label>
           <button
             type="submit"
             disabled={busy}
-            className="mt-5 w-full rounded-full bg-brand-700 px-6 py-3 text-sm font-semibold text-white transition hover:bg-brand-600 disabled:opacity-60"
+            className="mt-3 w-full rounded-full bg-brand-700 px-6 py-2.5 text-sm font-semibold text-white transition hover:bg-brand-600 disabled:opacity-60"
           >
             {busy ? "Sending…" : "Send enquiry"}
           </button>
-          <p className="mt-3 text-center text-xs text-brand-900/50">
+          <p className="mt-2 text-center text-xs text-brand-900/50">
             Prefer email? Write to {site.email}
           </p>
         </form>
