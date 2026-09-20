@@ -5,7 +5,6 @@ import { Packages } from "@/components/Packages";
 import { Destinations } from "@/components/Destinations";
 import { WhyUs } from "@/components/WhyUs";
 import { Testimonials } from "@/components/Testimonials";
-import { Gallery } from "@/components/Gallery";
 import { Faq } from "@/components/Faq";
 import { SeoContent } from "@/components/SeoContent";
 import { Contact } from "@/components/Contact";
@@ -56,7 +55,6 @@ export default function Page() {
         <Destinations />
         <WhyUs />
         <Testimonials />
-        <Gallery />
         <Faq />
         <SeoContent />
         <Contact />

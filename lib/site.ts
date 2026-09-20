@@ -27,7 +27,6 @@ export const nav = [
   { href: "#packages", label: "Packages" },
   { href: "#destinations", label: "Destinations" },
   { href: "#why-us", label: "Why Us" },
-  { href: "#gallery", label: "Gallery" },
   { href: "#faq", label: "FAQ" },
   { href: "#contact", label: "Contact" },
 ];
