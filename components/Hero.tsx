@@ -2,9 +2,9 @@ import Image from "next/image";
 import { EnquiryButton } from "./EnquiryButton";
 import { heroKeywords, offer, site } from "@/lib/site";
 
-const IMG_MAIN = "/images/gulmarg.avif";
-const IMG_LEFT = "/images/pahalgam.avif";
-const IMG_RIGHT = "/images/trek-ridge.avif";
+const IMG_MAIN = "/images/houseboat-lake.avif";
+const IMG_LEFT = "/images/gulmarg-gondola.jpg";
+const IMG_RIGHT = "/images/tulip-garden.jpg";
 
 export function Hero() {
   return (
@@ -138,15 +138,15 @@ export function Hero() {
             <figure className="relative aspect-[3/5] overflow-hidden rounded-[45%_45%_45%_45%/12%_12%_12%_12%] rounded-b-[36px] ring-4 ring-white/20">
               <Image
                 src={IMG_LEFT}
-                alt="Pahalgam valley, Kashmir"
+                alt="Gulmarg gondola over snow-capped mountains, Kashmir"
                 fill
                 sizes="18vw"
                 className="object-cover"
               />
               <figcaption className="absolute inset-x-1.5 bottom-1.5 rounded-xl bg-white/95 px-2 py-1 text-center text-[0.68rem] font-semibold text-brand-900 shadow">
-                Pahalgam
+                Gulmarg
                 <span className="block text-[0.6rem] font-normal text-brand-900/55">
-                  Lidder Valley
+                  Gondola Ride
                 </span>
               </figcaption>
             </figure>
@@ -155,7 +155,7 @@ export function Hero() {
             <figure className="relative aspect-[3/4] overflow-hidden rounded-[50%_50%_50%_50%/22%_22%_18%_18%] rounded-b-[48px] shadow-2xl ring-4 ring-white/25">
               <Image
                 src={IMG_MAIN}
-                alt="Traveller looking out over Gulmarg meadows, Kashmir"
+                alt="Traditional houseboat on Dal Lake surrounded by flowers and mountains, Srinagar"
                 fill
                 priority
                 sizes="(max-width: 1024px) 55vw, 28vw"
@@ -170,15 +170,15 @@ export function Hero() {
             <figure className="relative aspect-[3/5] overflow-hidden rounded-[45%_45%_45%_45%/12%_12%_12%_12%] rounded-b-[36px] ring-4 ring-white/20">
               <Image
                 src={IMG_RIGHT}
-                alt="Trekker on a snowy Kashmir ridge"
+                alt="Tulip garden in Srinagar with mountains behind"
                 fill
                 sizes="18vw"
                 className="object-cover"
               />
               <figcaption className="absolute inset-x-1.5 bottom-1.5 rounded-xl bg-white/95 px-2 py-1 text-center text-[0.68rem] font-semibold text-brand-900 shadow">
-                Sonmarg
+                Srinagar
                 <span className="block text-[0.6rem] font-normal text-brand-900/55">
-                  Meadow of Gold
+                  Tulip Garden
                 </span>
               </figcaption>
             </figure>

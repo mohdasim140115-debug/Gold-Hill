@@ -49,7 +49,7 @@ export const packages = [
     price: "₹12,999",
     priceNote: "per person (2 pax)",
     image:
-      "/images/dal-lake.avif",
+      "/images/houseboat-lake.avif",
     highlights: [
       "Houseboat stay on Dal Lake + hotels",
       "Gulmarg Gondola & Pahalgam valleys",
@@ -59,12 +59,12 @@ export const packages = [
   },
   {
     slug: "kashmir-honeymoon-package-couple",
-    title: "Kashmir Honeymoon Package for Couple",
+    title: "Best kashmir tour package ",
     nights: "6 Nights / 7 Days",
     price: "₹7,999",
-    priceNote: "per couple",
+    priceNote: "per/person",
     image:
-      "/images/houseboat.avif",
+      "/images/dal-lake-shikara.jpg",
     highlights: [
       "Premium houseboat + candle-light dinner",
       "Sunset shikara ride & flower-decked room",
@@ -79,7 +79,7 @@ export const packages = [
     price: "₹13,499",
     priceNote: "per person (4 pax)",
     image:
-      "/images/gulmarg.avif",
+      "/images/tulip-garden.jpg",
     highlights: [
       "Family rooms in 3★/4★ hotels",
       "Easy-paced sightseeing with private SUV",
@@ -94,7 +94,7 @@ export const packages = [
     price: "₹11,499",
     priceNote: "per person (2 pax)",
     image:
-      "/images/gulmarg-2.avif",
+      "/images/gulmarg-gondola.jpg",
     highlights: [
       "Slope-side Gulmarg hotel + Gondola Phase 1 & 2",
       "Beginner ski lesson with instructor",
@@ -109,7 +109,7 @@ export const packages = [
     price: "₹8,999",
     priceNote: "per person (2 pax)",
     image:
-      "/images/srinagar-garden-2.avif",
+      "/images/houseboat-2.avif",
     highlights: [
       "Houseboat + hotel stay",
       "Shikara ride, Mughal gardens & old city",
@@ -124,7 +124,7 @@ export const packages = [
     price: "₹11,999",
     priceNote: "per person (6+ pax)",
     image:
-      "/images/yusmarg.avif",
+      "/images/gulmarg-snowfall.jpg",
     highlights: [
       "Best group rates on hotels & tempo traveller",
       "All Kashmir highlights in one trip",
@@ -139,37 +139,37 @@ export const destinations = [
     name: "Srinagar",
     blurb: "Dal Lake, Mughal gardens, floating markets and heritage houseboats.",
     image:
-      "/images/srinagar-garden.avif",
+      "/images/dal-lake-shikara.jpg",
   },
   {
     name: "Gulmarg",
     blurb: "Asia's highest gondola, meadows of flowers and winter ski slopes.",
     image:
-      "/images/gulmarg.avif",
+      "/images/gulmarg-gondola.jpg",
   },
   {
     name: "Sonmarg",
     blurb: "The Meadow of Gold — Thajiwas glacier, alpine rivers and pony trails.",
     image:
-      "/images/trek-ridge.avif",
+      "/images/kashmir-valley.jpg",
   },
   {
     name: "Pahalgam",
     blurb: "Lidder valley, Betaab & Aru — pine forests and riverside camps.",
     image:
-      "/images/pahalgam.avif",
+      "/images/yusmarg.avif",
   },
   {
     name: "Doodhpathri",
     blurb: "Untouched 'valley of milk' meadows just hours from Srinagar.",
     image:
-      "/images/doodhpathri.avif",
+      "/images/tulip-garden.jpg",
   },
   {
     name: "Yusmarg",
     blurb: "Quiet pastures, the Doodh Ganga stream and gentle hiking trails.",
     image:
-      "/images/yusmarg.avif",
+      "/images/snow-cottage.jpg",
   },
 ];
 
