@@ -9,6 +9,7 @@ import { SeoContent } from "@/components/SeoContent";
 import { Contact } from "@/components/Contact";
 import { Footer } from "@/components/Footer";
 import { WhatsAppFloat } from "@/components/WhatsAppFloat";
+import { WelcomePopup } from "@/components/WelcomePopup";
 import { faqs, packages, seoKeywords, site } from "@/lib/site";
 
 export const metadata: Metadata = {
@@ -59,6 +60,7 @@ export default function Page() {
       </main>
       <Footer />
       <WhatsAppFloat />
+      <WelcomePopup />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }}
